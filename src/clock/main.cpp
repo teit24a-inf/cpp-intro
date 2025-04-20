@@ -7,7 +7,7 @@ int main() {
   std::cout << "Minuten:  " << minutes() << std::endl;
   std::cout << "Stunden:  " << hours() << std::endl;
 
-  std::cout << "Uhrzeit:  " << time_string() << std::endl;
+  std::cout << "Uhrzeit: " << time_string() << std::endl;
 
   return 0;
 }
