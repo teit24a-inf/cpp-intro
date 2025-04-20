@@ -37,7 +37,7 @@ jobs:
       - name: install mamba
         uses: mamba-org/setup-micromamba@main
         with:
-          environment-file: xeus-cpp/environment-wasm-build.yml
+          environment-file: .xeus-cpp/environment-wasm-build.yml
           init-shell: bash
           environment-name: xeus-cpp-wasm-build
 
